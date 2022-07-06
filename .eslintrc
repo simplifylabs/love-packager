@@ -1,0 +1,12 @@
+{
+  "extends": ["oclif", "oclif-typescript"],
+  "overrides": [
+    {
+      "files": "*.ts",
+      "rules": {
+        "object-curly-spacing": 1,
+        "quotes": "double"
+      }
+    }
+  ]
+}

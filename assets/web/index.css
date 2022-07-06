@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: arial;
+  margin: 0;
+  padding: none;
+  background-color: #000;
+  color: #fff;
+}
+
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  border: 0px none;
+  background: #000;
+}
+
+#loadingCanvas {
+  z-index: 1;
+}
+
+#canvas {
+  visibility: hidden;
+  z-index: 2;
+}
